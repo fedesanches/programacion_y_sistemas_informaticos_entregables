@@ -1,0 +1,4 @@
+SEMANA 02
+
+En invertir_lista se está retornando un método que modifica lista, no el resultado de aplicarlo.
+Además, sort() ordena los elementos dentro de la lista a la que se le aplica. No los invierte.
