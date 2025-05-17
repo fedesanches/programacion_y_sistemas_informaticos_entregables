@@ -1,5 +1,7 @@
 def invertir_lista(lista):
-    return lista.sort(reverse=True)
+    list_invertida = []
+    for i in range(len(lista)): list_invertida.append(lista[-(i + 1)])
+    return list_invertida
 
 def collatz(x):
     c = 0
